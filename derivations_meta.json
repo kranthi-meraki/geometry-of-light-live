@@ -1,0 +1,54 @@
+{
+ "time_dilation": {
+  "title": "Time dilation, from the light clock",
+  "concept": "sr.time_dilation",
+  "notes": [
+   "At rest, one tick sends light up to the mirror and back \u2014 a distance 2L at speed c.",
+   "Set the clock moving. In the platform frame the light runs a diagonal; apply Pythagoras to half a tick of length t.",
+   "Bring both t-terms to the same side.",
+   "Factor out t squared and divide.",
+   "Pull out c and recognise t_0. The moving clock's tick is longer by the factor gamma."
+  ]
+ },
+ "length_contraction": {
+  "title": "Length contraction, by rotating the clock",
+  "concept": "sr.length_contraction",
+  "notes": [
+   "The transverse light-clock tick \u2014 already dilated by gamma.",
+   "Now lay the clock along the motion, unknown length L. Light chases a fleeing mirror, then meets an approaching one.",
+   "Add the two legs.",
+   "Both orientations are one clock: the ticks must match.",
+   "The moving rod is shorter along its motion by exactly gamma."
+  ]
+ },
+ "simultaneity_offset": {
+  "title": "Leading clocks lag: the synchronization offset",
+  "concept": "sr.simultaneity",
+  "notes": [
+   "Synchronise by a flash from the midpoint. In the moving frame the rod (length L) slides; light meets the trailing end early, the leading end late.",
+   "Solve each meeting time.",
+   "The two clocks, set alike at those meetings, now disagree by this much.",
+   "Insert the contracted length L = L_0/gamma. Leading clocks lag by gamma v L_0 over c squared."
+  ]
+ },
+ "invariant_interval": {
+  "title": "The invariant interval, and its minus sign",
+  "concept": "sr.spacetime_interval",
+  "notes": [
+   "Take two ticks of a clock moving at v. Its own proper time is dilated by gamma.",
+   "Square, and substitute one over gamma squared equals one minus beta squared.",
+   "But v squared times delta-t squared is just delta-x squared.",
+   "So this combination equals c squared times proper-time squared \u2014 the same number in every frame. That minus sign is what survives."
+  ]
+ },
+ "muon": {
+  "title": "The muon at sea level",
+  "concept": "sr.muon_decay",
+  "notes": [
+   "At its proper lifetime a muon should fall only about 0.66 km \u2014 far short of the ground.",
+   "But it moves at 0.998 c.",
+   "In the lab its clock runs slow: it lives about sixteen times longer.",
+   "Now it easily reaches sea level. In the muon's own frame the atmosphere is contracted instead \u2014 same survival, two stories."
+  ]
+ }
+}

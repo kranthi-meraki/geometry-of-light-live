@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Ask the AI Tutor · The Geometry of Light</title>
+<title>Ask Euler · The Geometry of Light</title>
 <style>
   :root{ --amber:#e8b64c; --ink:#0a0d14; --panel:#141926; --bubble:#1b2233; --line:#252d3d; --dim:#8b96a8; }
   *{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
@@ -43,7 +43,7 @@
 <body>
 <div class="app">
   <header>
-    <div class="brand"><span class="dot"></span>Fermi AI Tutor · powered by Fable</div>
+    <div class="brand"><span class="dot"></span>Euler · your Fermi AI tutor</div>
     <h1>Ask about this page</h1>
     <div class="ctx" id="ctx">Special Relativity</div>
   </header>
@@ -111,7 +111,7 @@ document.getElementById('form').onsubmit = e=>{ e.preventDefault(); send(); };
 if(!PROXY){ const n=document.getElementById('notice'); n.style.display='block';
   n.textContent = "Demo note: connect the tutor proxy URL in config.js to make answers live."; }
 starters();
-bubble("Hi — I'm your Fermi tutor for "+ctxLabel+". Ask me why it works, not just what the formula says.", 'ai');
+bubble("Hi — I'm Euler, your tutor for "+ctxLabel+". Ask me why it works, not just what the formula says.", 'ai');
 </script>
 </body>
 </html>
